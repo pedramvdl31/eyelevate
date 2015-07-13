@@ -3,10 +3,11 @@
 	
 @stop
 @section('scripts')
-
+<script src="js/home.js"></script>
 @stop
 
 @section('content')
+
 <nav class="mainmenu">
 	<div class="container">
 		<div class="dropdown">
@@ -26,19 +27,18 @@
 <!-- Main (Home) section -->
 <section class="section" id="head">
 	<div class="container">
-
 		<div class="row">
 			<div class="col-md-10 col-lg-10 col-md-offset-1 col-lg-offset-1 text-center">	
 
 				<!-- Site Title, your name, HELLO msg, etc. -->
-				<h2 class="subtitle"  style="color:#black">Eyelevate</h2>
+				<h2 class="subtitle"  style="color:white">Eyelevate</h2>
 
 				<!-- Short introductory (optional) -->
 				<!-- #778899 -->
 				<!-- #FFE800 -->
 				<!-- #5A5A5A -->
 				<!-- rgb(86, 62, 125); -->
-				<h3 class="tagline" style="#5A5A5A">
+				<h3 class="tagline" style="color:white">
 					Potentially, the best place to tell people why they are here.<br>
 					So, this is a demo page built to showcase the beauty of the template.
 				</h3>
@@ -57,5 +57,19 @@
 	
 	</div>
 </section>
+<style>
+/*ICON BAR COLOR*/
+.theme-invert .navbar-toggle .icon-bar {
+	background:MintCream;
+}
+
+.theme-invert .mainmenu .dropdown-menu a {
+	color:MintCream;
+}
+.theme-invert .mainmenu .dropdown-menu a:hover { 
+	color:white;
+}
+</style>
+
 
 @stop

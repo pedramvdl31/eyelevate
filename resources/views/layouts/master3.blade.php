@@ -26,7 +26,9 @@
   <![endif]-->
 </head>
 <body class="theme-invert">
+    <div id="video-wrap">
 
+    </div>
 @yield('content')
 
 
@@ -41,3 +43,34 @@
 
 </body>
 </html>
+<style>
+  video#video-bg{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size:cover;
+  top: 0;
+  left: 0;
+  opacity:1;
+  /*SET FOR OLDER BROWSER INCASE THEY COULDNT RENDER VIDEO TAG*/
+}
+
+  #video-wrap{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size:cover;
+  top: 0;
+  left: 0;
+  opacity:1;
+  /*SET FOR OLDER BROWSER INCASE THEY COULDNT RENDER VIDEO TAG*/
+  background: url(assets/main-background/frames/frame-1-min.png) no-repeat;
+}
+body, html{
+  background: black;
+}
+</style>
