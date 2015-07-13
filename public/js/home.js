@@ -12,7 +12,6 @@ home = {
 
 		$(window).bind("load", function() {  
 			load_background_video();
-
 			/**
 		   * Video element
 		   * @type {HTMLElement}
@@ -27,12 +26,7 @@ home = {
 		        video.play();
 		    // });
 		  });
-
 		}); 
-
-
-
-
 	},
 	events: function() {
 
@@ -46,8 +40,8 @@ request = {
 function load_background_video()
 {
 	var html ='<video  class="la_video" preload="auto" loop="true" id="video-bg" muted>'+
-				'<source src="assets/main-background/video/ElectricBulb.webm" type="video/webm">'+
-				'<source src="assets/main-background/video/ElectricBulb.mp4" type="video/mp4">'+
+				// '<source src="assets/main-background/video/ElectricBulb.webm" type="video/webm">'+
+				'<source src="assets/main-background/video/ElectricBulb-fade.mp4" type="video/mp4">'+
 				'</video>';
 
      $('#video-wrap').append(html);

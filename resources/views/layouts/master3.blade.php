@@ -29,6 +29,10 @@
     <div id="video-wrap">
 
     </div>
+
+    <div id="top-layer">
+
+    </div>
 @yield('content')
 
 
@@ -67,8 +71,28 @@
   top: 0;
   left: 0;
   opacity:1;
+  z-index: 0;
   /*SET FOR OLDER BROWSER INCASE THEY COULDNT RENDER VIDEO TAG*/
   background: url(assets/main-background/frames/frame-1-min.png) no-repeat;
+}
+
+  #top-layer{
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background-size:cover;
+  top: 0;
+  left: 0;
+  opacity:0;
+  z-index: 0;
+  /*SET FOR OLDER BROWSER INCASE THEY COULDNT RENDER VIDEO TAG*/
+  background: gray;
+}
+  #main-content{
+  z-index: 2;
+
 }
 body, html{
   background: black;

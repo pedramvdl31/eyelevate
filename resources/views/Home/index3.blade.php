@@ -7,8 +7,8 @@
 @stop
 
 @section('content')
-
-<nav class="mainmenu">
+<div id="main-content">
+	<nav class="mainmenu">
 	<div class="container">
 		<div class="dropdown">
 			<button type="button" class="navbar-toggle" data-toggle="dropdown"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
@@ -57,6 +57,8 @@
 	
 	</div>
 </section>
+</div>
+
 <style>
 /*ICON BAR COLOR*/
 .theme-invert .navbar-toggle .icon-bar {
