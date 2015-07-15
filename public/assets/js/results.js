@@ -21,21 +21,62 @@ $('.popbutton').popover({
 	},
 	events: function() {
 
-		right-arr
-		$('#right-arr').click(function(){
-			var select = $(this).attr('state');
-			if (state == "0") {//CLOSED
+	
+		$('.reply-text').click(function(){
+			
+			var state = parseInt($('#right-arr').attr('state'));
 
-			} else if(state == "0"){//OPEN
-
+			if (state == 0) {//CLOSE
+				$('#right-arr').attr('state','1');
+				$('#right-arr').css('display','inline');
 			}
 
 		});
 
-// $('a').click(function(e)
-// {
-//     // e.preventDefault();
-// });
+		$('#right-arr').click(function(){
+			
+			var state = parseInt($('#right-arr').attr('state'));
+
+			if (state == 1) {//OPEN
+				$('#right-arr').attr('state','0');
+				$('#right-arr').css('display','none');
+			}
+
+		});
+
+		$('.more').click(function(){
+			var new_var = 100;
+			var current_height = parseInt($(this).parents('.right-data:first').css('height'));
+			var new_height = current_height + new_var;
+			$(this).parents('.right-data:first').css('height',new_height);
+			$(this).parents('.right-data:first').css({
+		        opacity          : 1,
+		        WebkitTransition : 'height 1s',
+		        MozTransition    : 'height 1s',
+		        MsTransition     : 'height 1s',
+		        OTransition      : 'height 1s',
+		        transition       : 'height 1s'
+		    });
+			var current_top = parseInt($('.more').css('top'));
+			$('.more').css({
+		        opacity          : 1,
+		        WebkitTransition : 'top 1s',
+		        MozTransition    : 'top 1s',
+		        MsTransition     : 'top 1s',
+		        OTransition      : 'top 1s',
+		        transition       : 'top 1s'
+		    });
+			var new_top = current_top + new_var;
+			$('.more').css('top',new_top);
+		});
+		
+
+
+	// $('a #right-arr').click(function(e)
+	// {
+	// 	alert();
+	//     // e.preventDefault();
+	// });
 		//FLAG WAS CLICKED
 		$('.flags').click(function(){
 			

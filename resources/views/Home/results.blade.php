@@ -27,10 +27,10 @@
               <!-- HEADING -->
               <h4 class="media-heading">Pedram kh 
                 <span class="dash-separator">—</span>
-                <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                 <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                 <span class="thumb-group pull-right">
-                  <span class="reply-text"><a href="#zoom">Reply</a></span>
+                  <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                   <span class="dot-separator">.</span>
                   <span class="thumb-set">
                     <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -62,10 +62,10 @@
                     <!-- HEADING -->
                     <h4 class="media-heading">Pedram kh 
                       <span class="dash-separator">—</span>
-                      <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                      <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text"><a href="#zoom">Reply</a></span>
+                        <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -97,10 +97,10 @@
                     <!-- HEADING -->
                     <h4 class="media-heading">Pedram kh 
                       <span class="dash-separator">—</span>
-                      <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                      <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text"><a href="#zoom">Reply</a></span>
+                        <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -132,10 +132,10 @@
                     <!-- HEADING -->
                     <h4 class="media-heading">Pedram kh 
                       <span class="dash-separator">—</span>
-                      <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                      <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text"><a href="#zoom">Reply</a></span>
+                        <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -182,11 +182,11 @@
                 <h4 class="media-heading">Pedram kh 
 
                   <span class="dash-separator">—</span>
-                  <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                  <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                   <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
 
                   <span class="thumb-group pull-right">
-                    <span class="reply-text"><a href="#zoom">Reply</a></span>
+                    <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                     <span class="dot-separator">.</span>
                     <span class="thumb-set">
                       <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -218,10 +218,10 @@
                       <!-- HEADING -->
                       <h4 class="media-heading">Pedram kh 
                         <span class="dash-separator">—</span>
-                        <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                        <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                         <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                         <span class="thumb-group pull-right">
-                          <span class="reply-text"><a href="#zoom">Reply</a></span>
+                          <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                           <span class="dot-separator">.</span>
                           <span class="thumb-set">
                             <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -253,10 +253,10 @@
                       <!-- HEADING -->
                       <h4 class="media-heading">Pedram kh 
                         <span class="dash-separator">—</span>
-                        <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
+                        <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                         <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                         <span class="thumb-group pull-right">
-                          <span class="reply-text"><a href="#zoom">Reply</a></span>
+                          <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
                           <span class="dot-separator">.</span>
                           <span class="thumb-set">
                             <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -292,27 +292,94 @@
   <div class="col-md-3 right-box inner">
 
 <div id="toggle-right">
-  <a href="#" class="glyphicon glyphicon-menu-right hide " id="right-arr" state="0"></a>
+  <a href="#" class="glyphicon glyphicon-menu-right" id="right-arr" state="0"></a>
 </div>
     
     <!-- DUMMY DATA START -->
     <div class="list-group" id="tread-side-group">
-      <a href="#" class="list-group-item right-data active" id="tread-side-title">
+      <a  class="list-group-item right-data active" id="tread-side-title">
         Cras justo odio
       </a>
-      <a href="#" class="list-group-item right-data">Dapibus ac facilisis in</a>
-      <a href="#" class="list-group-item right-data">Morbi leo risus</a>
-      <a href="#" class="list-group-item right-data">Porta ac consectetur ac</a>
-      <a href="#" class="list-group-item right-data">Vestibulum at eros</a>
-      <a href="#" class="list-group-item right-data">Dapibus ac facilisis in</a>
-      <a href="#" class="list-group-item right-data">Morbi leo risus</a>
-      <a href="#" class="list-group-item right-data">Porta ac consectetur ac</a>
-      <a href="#" class="list-group-item right-data">Vestibulum at eros</a>
-      <a href="#" class="list-group-item right-data">Dapibus ac facilisis in</a>
-      <a href="#" class="list-group-item right-data">Morbi leo risus</a>
-      <a href="#" class="list-group-item right-data">Porta ac consectetur ac</a>
-      <a href="#" class="list-group-item right-data">Vestibulum at eros</a>
-      <a href="#" class="list-group-item right-data">Dapibus ac facilisis in</a>
+      <a  class="list-group-item right-data">
+        
+        <span class="message-header">
+          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+        </br></span>
+        <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more">view more...</span>
+        </span>
+      </a>
+
+
+
+
+
+
+      <a  class="list-group-item right-data">
+        
+        <span class="message-header">
+          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+        </br></span>
+        <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more">view more...</span>
+        </span>
+      </a>
+            <a  class="list-group-item right-data">
+        
+        <span class="message-header">
+          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+        </br></span>
+        <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more">view more...</span>
+        </span>
+      </a>
+            <a  class="list-group-item right-data">
+        
+        <span class="message-header">
+          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+        </br></span>
+        <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more">view more...</span>
+        </span>
+      </a>
+            <a  class="list-group-item right-data">
+        
+        <span class="message-header">
+          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+        </br></span>
+        <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more">view more...</span>
+        </span>
+      </a>
+
+
+
+
     </div>
 
     <!-- DUMMY DATA END -->
@@ -347,7 +414,7 @@ body,html{
   border-bottom: 1px solid gray;
 }
 #tread-side-group{
-
+overflow: hidden;
 }
 
 .container-fluid {
@@ -447,6 +514,10 @@ body,html{
   opacity: .75;
   /*  vertical-align: top;*/
 }
+.reply-text-a:hover{
+  color: black;
+  text-decoration: none;
+}
 a{
   color: #555;
 }
@@ -476,7 +547,6 @@ a{
   padding:0;
 
 }
-
 
 /*MEDIA*/
 .media-group{
@@ -522,7 +592,7 @@ margin-bottom: 15px;
    position: relative;
 }
 .inner {
-    position: absolute;
+    position: fixed;
     min-height: 700px;
     right: -315px;
     top: 0;
@@ -532,6 +602,7 @@ margin-bottom: 15px;
     transition:  right 1s;
 }
 #right-arr{
+  display:none;
   font-size: 33px;
   z-index: 10;
   color: rgba(71, 71, 71, 0.84);
@@ -541,6 +612,45 @@ margin-bottom: 15px;
   cursor: pointer;
 }
 
+/*DISABLING A TAG DEFAULT*/
+#right-arr:hover{
+text-decoration: none;
+}
+#right-arr:active{
+text-decoration: none;
+}
+#right-arr:focus{
+text-decoration: none;
+}
+
+/*SIDE MESSAGES*/
+.right-data{
+   height: 105px;
+
+}
+.message-header{
+  font-size: 16px;
+  line-height: 1.6;
+  color: rgb(10, 10, 10);
+  cursor: pointer;
+  font-weight: bold;
+  opacity: .75;
+}
+.message-header:hover{
+text-decoration: underline;
+}
+.message-body{
+
+}
+.more{
+  position: absolute;
+  top: 77px;
+  right: 0px;
+  cursor: pointer;
+  /* top: 385px; */
+  background-color: rgb(238, 233, 233);
+  padding: 3px;
+}
 
 </style>
 
