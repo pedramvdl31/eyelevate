@@ -15,3 +15,4 @@
 
 // Route::get('/', 'WelcomeController@getIndex');
 Route::get('/', 'HomeController@getIndex');
+Route::post('/search','HomeController@postIndex');

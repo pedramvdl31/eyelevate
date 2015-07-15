@@ -1,0 +1,20 @@
+{
+  "name": "eyelevate",
+  "version": "0.0.0",
+  "homepage": "https://github.com/eyelevate/eyelevate",
+  "authors": [
+    "pedram31 <pedram@eyelevate.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "resources/assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass-official": "~3.3.5"
+  }
+}
