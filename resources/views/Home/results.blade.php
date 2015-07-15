@@ -65,7 +65,7 @@
                       <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text">Reply</span>
+                        <span class="reply-text"><a href="#zoom">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -100,7 +100,7 @@
                       <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text">Reply</span>
+                        <span class="reply-text"><a href="#zoom">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -135,7 +135,7 @@
                       <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text">Reply</span>
+                        <span class="reply-text"><a href="#zoom">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -186,7 +186,7 @@
                   <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
 
                   <span class="thumb-group pull-right">
-                    <span class="reply-text">Reply</span>
+                    <span class="reply-text"><a href="#zoom">Reply</a></span>
                     <span class="dot-separator">.</span>
                     <span class="thumb-set">
                       <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -221,7 +221,7 @@
                         <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
                         <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                         <span class="thumb-group pull-right">
-                          <span class="reply-text">Reply</span>
+                          <span class="reply-text"><a href="#zoom">Reply</a></span>
                           <span class="dot-separator">.</span>
                           <span class="thumb-set">
                             <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -256,7 +256,7 @@
                         <span class="heading-date">03:25 PM, Wednesday, July 15, 2015</span> 
                         <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                         <span class="thumb-group pull-right">
-                          <span class="reply-text">Reply</span>
+                          <span class="reply-text"><a href="#zoom">Reply</a></span>
                           <span class="dot-separator">.</span>
                           <span class="thumb-set">
                             <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -290,8 +290,12 @@
     <!-- DUMMY DATA END -->
   </div>
   <div class="col-md-3 right-box inner">
+
+<div id="toggle-right">
+  <a href="#" class="glyphicon glyphicon-menu-right hide " id="right-arr" state="0"></a>
+</div>
+    
     <!-- DUMMY DATA START -->
-<a href="#" style="color:blue">Zoom Out</a>
     <div class="list-group" id="tread-side-group">
       <a href="#" class="list-group-item right-data active" id="tread-side-title">
         Cras justo odio
@@ -513,22 +517,30 @@ margin-bottom: 15px;
 
 }
 
-/*test*/
 .outer {
    overflow: hidden;
    position: relative;
 }
-
 .inner {
     position: absolute;
     min-height: 700px;
-    right: -330px;
+    right: -315px;
     top: 0;
     -webkit-transition: right 1s;
     -moz-transition: right 1s;
     -o-transition: right 1s;
     transition:  right 1s;
 }
+#right-arr{
+  font-size: 33px;
+  z-index: 10;
+  color: rgba(71, 71, 71, 0.84);
+  top: 300px;
+  right: 95%;
+  position: absolute;
+  cursor: pointer;
+}
+
 
 </style>
 

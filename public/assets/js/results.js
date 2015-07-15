@@ -21,7 +21,21 @@ $('.popbutton').popover({
 	},
 	events: function() {
 
+		right-arr
+		$('#right-arr').click(function(){
+			var select = $(this).attr('state');
+			if (state == "0") {//CLOSED
 
+			} else if(state == "0"){//OPEN
+
+			}
+
+		});
+
+// $('a').click(function(e)
+// {
+//     // e.preventDefault();
+// });
 		//FLAG WAS CLICKED
 		$('.flags').click(function(){
 			
