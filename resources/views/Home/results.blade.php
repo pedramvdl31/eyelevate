@@ -8,64 +8,36 @@
 
 @section('content')
 <div class="outer">
-<div class="container-fluid">
-  <div class="col-md-9 left-box" id="zoom">
-    <!-- DUMMY DATA START -->
-    <h3 class="text-center" id="tread-title">Help My Small Business</h3>
-    <div class="bs-example" data-example-id="default-media">
-      <!-- TEST 2 -->
-      <div class="media-group">
-      <div class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-          </a>
-        </div>
-        <div class="media-body">
-          <div class="dialogbox">
-            <div class="body">
-              <!-- HEADING -->
-              <h4 class="media-heading">Pedram kh 
-                <span class="dash-separator">—</span>
-                <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
-                <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
-                <span class="thumb-group pull-right">
-                  <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
-                  <span class="dot-separator">.</span>
-                  <span class="thumb-set">
-                    <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
-                    <span class="thumbs-text">197</span>
-                  </span>
-                  <span class="thumb-set">
-                    <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
-                    <span class="thumbs-text ">4</span>
-                  </span>
-                </span>
-              </h4>
-              <span class="tip tip-left"></span>
-              <div class="message media-text">
-                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-              </div>
+  <div class="container-fluid">
+    <div class="col-md-9 left-box" id="zoom" target="false">
+      <!-- DUMMY DATA START -->
+      <h3 class="text-center" id="tread-title">Help My Small Business</h3>
+      <div class="bs-example" data-example-id="default-media">
+        <!-- TEST 2 -->
+        <div class="media-group">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+              </a>
             </div>
-          </div>
-          <!-- CHILD MEDIA -->
-          <div class="media-child">
-            <div class="media media-reply">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-                </a>
-              </div>
-              <div class="media-body">
+            <div class="media-body">
+
+
+
+
+
+
+              <div class="dialogbox-container">
                 <div class="dialogbox">
                   <div class="body">
                     <!-- HEADING -->
-                    <h4 class="media-heading">Pedram kh 
+                    <h4 class="media-heading">Pedram kh 1
                       <span class="dash-separator">—</span>
                       <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
                       <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
                       <span class="thumb-group pull-right">
-                        <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
+                        <span class="reply-text"><a href="#zoom"  class="reply-text-a">Reply</a></span>
                         <span class="dot-separator">.</span>
                         <span class="thumb-set">
                           <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
@@ -83,311 +55,465 @@
                     </div>
                   </div>
                 </div>
+                <!-- REPLY BOX -->
+                <div class="reply-box clearfix">
+
+
+                  
+                </div>
+
+
               </div>
-            </div>
-            <div class="media media-reply">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-                </a>
-              </div>
-              <div class="media-body">
-                <div class="dialogbox">
-                  <div class="body">
-                    <!-- HEADING -->
-                    <h4 class="media-heading">Pedram kh 
-                      <span class="dash-separator">—</span>
-                      <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
-                      <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
-                      <span class="thumb-group pull-right">
-                        <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
-                        <span class="dot-separator">.</span>
-                        <span class="thumb-set">
-                          <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
-                          <span class="thumbs-text">197</span>
-                        </span>
-                        <span class="thumb-set">
-                          <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
-                          <span class="thumbs-text ">4</span>
-                        </span>
-                      </span>
-                    </h4>
-                    <span class="tip tip-left"></span>
-                    <div class="message media-text">
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
+
+              <!-- CHILD MEDIA -->
+              <div class="media-child">
+                <div class="media media-reply">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                    </a>
                   </div>
-                </div>
-              </div>
-            </div>
-            <div class="media media-reply">
-              <div class="media-left">
-                <a href="#">
-                  <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-                </a>
-              </div>
-              <div class="media-body">
-                <div class="dialogbox">
-                  <div class="body">
-                    <!-- HEADING -->
-                    <h4 class="media-heading">Pedram kh 
-                      <span class="dash-separator">—</span>
-                      <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
-                      <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
-                      <span class="thumb-group pull-right">
-                        <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
-                        <span class="dot-separator">.</span>
-                        <span class="thumb-set">
-                          <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
-                          <span class="thumbs-text">197</span>
-                        </span>
-                        <span class="thumb-set">
-                          <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
-                          <span class="thumbs-text ">4</span>
-                        </span>
-                      </span>
-                    </h4>
-                    <span class="tip tip-left"></span>
-                    <div class="message media-text">
-                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- CHILD MEDIA END -->
-
-        </div>
-        <!-- MEDIA-BODY END -->
-      </div>
-      </div>
-      <!-- MEDIA GROUP END -->
-
-
-      <!-- TEST 2 -->
-      <div class="media-group">
-        <div class="media">
-          <div class="media-left">
-            <a href="#">
-              <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-            </a>
-          </div>
-          <div class="media-body">
-
-            <div class="dialogbox">
-
-              <div class="body">
-                <!-- HEADING -->
-                <h4 class="media-heading">Pedram kh 
-
-                  <span class="dash-separator">—</span>
-                  <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
-                  <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
-
-                  <span class="thumb-group pull-right">
-                    <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
-                    <span class="dot-separator">.</span>
-                    <span class="thumb-set">
-                      <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
-                      <span class="thumbs-text">197</span>
-                    </span>
-                    <span class="thumb-set">
-                      <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
-                      <span class="thumbs-text ">4</span>
-                    </span>
-                  </span>
-                </h4>
-                <span class="tip tip-left"></span>
-                <div class="message media-text">
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-            <!-- CHILD MEDIA -->
-            <div class="media-child">
-              <div class="media media-reply">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <div class="dialogbox">
-                    <div class="body">
-                      <!-- HEADING -->
-                      <h4 class="media-heading">Pedram kh 
-                        <span class="dash-separator">—</span>
-                        <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
-                        <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
-                        <span class="thumb-group pull-right">
-                          <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
-                          <span class="dot-separator">.</span>
-                          <span class="thumb-set">
-                            <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
-                            <span class="thumbs-text">197</span>
-                          </span>
-                          <span class="thumb-set">
-                            <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
-                            <span class="thumbs-text ">4</span>
-                          </span>
-                        </span>
-                      </h4>
-                      <span class="tip tip-left"></span>
-                      <div class="message media-text">
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  <div class="media-body">
+                    <div class="dialogbox-container">
+                      <div class="dialogbox">
+                        <div class="body">
+                          <!-- HEADING -->
+                          <h4 class="media-heading">Pedram kh 
+                            <span class="dash-separator">—</span>
+                            <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
+                            <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
+                            <span class="thumb-group pull-right">
+                              <span class="reply-text"><a href="#zoom" target="false" class="reply-text-a">Reply</a></span>
+                              <span class="dot-separator">.</span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
+                                <span class="thumbs-text">197</span>
+                              </span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
+                                <span class="thumbs-text ">4</span>
+                              </span>
+                            </span>
+                          </h4>
+                          <span class="tip tip-left"></span>
+                          <div class="message media-text">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </div>
                       </div>
+                      <!-- REPLY BOX -->
+                      <div class="reply-box"></div>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div class="media media-reply">
-                <div class="media-left">
-                  <a href="#">
-                    <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
-                  </a>
-                </div>
-                <div class="media-body">
-                  <div class="dialogbox">
-                    <div class="body">
-                      <!-- HEADING -->
-                      <h4 class="media-heading">Pedram kh 
-                        <span class="dash-separator">—</span>
-                        <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
-                        <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
-                        <span class="thumb-group pull-right">
-                          <span class="reply-text"><a href="#zoom" class="reply-text-a">Reply</a></span>
-                          <span class="dot-separator">.</span>
-                          <span class="thumb-set">
-                            <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
-                            <span class="thumbs-text">197</span>
-                          </span>
-                          <span class="thumb-set">
-                            <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
-                            <span class="thumbs-text ">4</span>
-                          </span>
-                        </span>
-                      </h4>
-                      <span class="tip tip-left"></span>
-                      <div class="message media-text">
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                <div class="media media-reply">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="dialogbox-container">
+                      <div class="dialogbox">
+                        <div class="body">
+                          <!-- HEADING -->
+                          <h4 class="media-heading">Pedram kh 
+                            <span class="dash-separator">—</span>
+                            <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
+                            <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
+                            <span class="thumb-group pull-right">
+                              <span class="reply-text"><a href="#zoom" target="false" class="reply-text-a">Reply</a></span>
+                              <span class="dot-separator">.</span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
+                                <span class="thumbs-text">197</span>
+                              </span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
+                                <span class="thumbs-text ">4</span>
+                              </span>
+                            </span>
+                          </h4>
+                          <span class="tip tip-left"></span>
+                          <div class="message media-text">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </div>
                       </div>
+
+                      <!-- REPLY BOX -->
+                      <div class="reply-box"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="media media-reply">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="dialogbox-container">
+                      <div class="dialogbox">
+                        <div class="body">
+                          <!-- HEADING -->
+                          <h4 class="media-heading">Pedram kh 
+                            <span class="dash-separator">—</span>
+                            <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
+                            <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
+                            <span class="thumb-group pull-right">
+                              <span class="reply-text"><a href="#zoom" target="false" class="reply-text-a">Reply</a></span>
+                              <span class="dot-separator">.</span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
+                                <span class="thumbs-text">197</span>
+                              </span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
+                                <span class="thumbs-text ">4</span>
+                              </span>
+                            </span>
+                          </h4>
+                          <span class="tip tip-left"></span>
+                          <div class="message media-text">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </div>
+                      </div>
+                      <!-- REPLY BOX -->
+                      <div class="reply-box"></div>
                     </div>
                   </div>
                 </div>
               </div>
+              <!-- CHILD MEDIA END -->
+
             </div>
-            <!-- CHILD MEDIA END -->
+            <!-- MEDIA-BODY END -->
           </div>
-          <!-- MEDIA-BODY END -->
         </div>
+        <!-- MEDIA GROUP END -->
+
+
+        <!-- TEST 2 -->
+        <div class="media-group">
+          <div class="media">
+            <div class="media-left">
+              <a href="#">
+                <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+              </a>
+            </div>
+            <div class="media-body">
+              <div class="dialogbox-container">
+                <div class="dialogbox">
+
+                  <div class="body">
+                    <!-- HEADING -->
+                    <h4 class="media-heading">Pedram kh 
+
+                      <span class="dash-separator">—</span>
+                      <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
+                      <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
+
+                      <span class="thumb-group pull-right">
+                        <span class="reply-text"><a href="#zoom" target="false" class="reply-text-a">Reply</a></span>
+                        <span class="dot-separator">.</span>
+                        <span class="thumb-set">
+                          <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
+                          <span class="thumbs-text">197</span>
+                        </span>
+                        <span class="thumb-set">
+                          <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
+                          <span class="thumbs-text ">4</span>
+                        </span>
+                      </span>
+                    </h4>
+                    <span class="tip tip-left"></span>
+                    <div class="message media-text">
+                      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                  </div>
+                </div>
+                <!-- REPLY BOX -->
+                <div class="reply-box"></div>
+              </div>
+              <!-- CHILD MEDIA -->
+              <div class="media-child">
+                <div class="media media-reply">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="dialogbox-container">
+                      <div class="dialogbox">
+                        <div class="body">
+                          <!-- HEADING -->
+                          <h4 class="media-heading">Pedram kh 
+                            <span class="dash-separator">—</span>
+                            <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
+                            <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
+                            <span class="thumb-group pull-right">
+                              <span class="reply-text"><a href="#zoom" target="false" class="reply-text-a">Reply</a></span>
+                              <span class="dot-separator">.</span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
+                                <span class="thumbs-text">197</span>
+                              </span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
+                                <span class="thumbs-text ">4</span>
+                              </span>
+                            </span>
+                          </h4>
+                          <span class="tip tip-left"></span>
+                          <div class="message media-text">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </div>
+                      </div>
+                      <!-- REPLY BOX -->
+                      <div class="reply-box"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="media media-reply">
+                  <div class="media-left">
+                    <a href="#">
+                      <img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <div class="dialogbox-container">
+                      <div class="dialogbox">
+                        <div class="body">
+                          <!-- HEADING -->
+                          <h4 class="media-heading">Pedram kh 
+                            <span class="dash-separator">—</span>
+                            <span class="heading-date">Wednesday, July 15, 2015, 03:25 PM</span> 
+                            <i class="flags fa fa-flag popbutton" data-placement="top" data-container="body"></i>
+                            <span class="thumb-group pull-right">
+                              <span class="reply-text"><a href="#zoom" target="false" class="reply-text-a">Reply</a></span>
+                              <span class="dot-separator">.</span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-up glyphicon glyphicon-thumbs-up"></i>
+                                <span class="thumbs-text">197</span>
+                              </span>
+                              <span class="thumb-set">
+                                <i class="thumbs-icon thumb-down glyphicon glyphicon-thumbs-down"></i>
+                                <span class="thumbs-text ">4</span>
+                              </span>
+                            </span>
+                          </h4>
+                          <span class="tip tip-left"></span>
+                          <div class="message media-text">
+                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                          </div>
+                        </div>
+                      </div>
+                      <!-- REPLY BOX -->
+                      <div class="reply-box"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- CHILD MEDIA END -->
+            </div>
+            <!-- MEDIA-BODY END -->
+          </div>
+        </div>
+        <!-- MEDIA GROUP END -->
+
+
       </div>
-      <!-- MEDIA GROUP END -->
-
-
-    </div>
-    <!-- BS FINISHED -->
-    <!-- DUMMY DATA END -->
-  </div>
-  <div class="col-md-3 right-box inner">
-
-<div id="toggle-right">
-  <a href="#" class="glyphicon glyphicon-menu-right" id="right-arr" state="0"></a>
-</div>
-    
-    <!-- DUMMY DATA START -->
-    <div class="list-group" id="tread-side-group">
-      <a  class="list-group-item right-data active" id="tread-side-title">
-        Cras justo odio
-      </a>
-      <a  class="list-group-item right-data">
-        
-        <span class="message-header">
-          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
-        </br></span>
-        <span class="message-body">
-            197  4
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
-            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
-            lla. Donec lacinia congue felis in faucibus.
-            <span class="more">view more...</span>
-        </span>
-      </a>
-
-
-
-
-
-
-      <a  class="list-group-item right-data">
-        
-        <span class="message-header">
-          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
-        </br></span>
-        <span class="message-body">
-            197  4
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
-            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
-            lla. Donec lacinia congue felis in faucibus.
-            <span class="more">view more...</span>
-        </span>
-      </a>
-            <a  class="list-group-item right-data">
-        
-        <span class="message-header">
-          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
-        </br></span>
-        <span class="message-body">
-            197  4
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
-            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
-            lla. Donec lacinia congue felis in faucibus.
-            <span class="more">view more...</span>
-        </span>
-      </a>
-            <a  class="list-group-item right-data">
-        
-        <span class="message-header">
-          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
-        </br></span>
-        <span class="message-body">
-            197  4
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
-            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
-            lla. Donec lacinia congue felis in faucibus.
-            <span class="more">view more...</span>
-        </span>
-      </a>
-            <a  class="list-group-item right-data">
-        
-        <span class="message-header">
-          <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
-        </br></span>
-        <span class="message-body">
-            197  4
-            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
-            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
-            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
-            lla. Donec lacinia congue felis in faucibus.
-            <span class="more">view more...</span>
-        </span>
-      </a>
-
-
-
-
+      <!-- BS FINISHED -->
+      <!-- DUMMY DATA END -->
     </div>
 
-    <!-- DUMMY DATA END -->
+
+
+
+    <!-- RIGHT BOX START -->
+    <div class="col-md-3 right-box inner" style="height:100% !important;">
+      <div id="toggle-right">
+        <a class="glyphicon glyphicon-menu-right" id="right-arr" href="#" state="0"></a>
+      </div>
+      <!-- DUMMY DATA START -->
+      <div class="list-group" id="tread-side-group">
+        <a  class="list-group-item right-data active" id="tread-side-title">
+          Cras justo odio
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class=" glyphicon glyphicon-chevron-down more icon-top"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+        <a  class="list-group-item right-data" expended="0">
+
+          <span class="message-header">
+            <span class="message-sender" id="">Pedram kh</span> — Wednesday, July 15, 2015, 03:25 PM
+          </br></span>
+          <span class="message-body">
+            197  4
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metusscelerisque
+            ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at,
+            tempus viverra turpis.Fusce condimentum nunc ac nisi vulputate fringi
+            lla. Donec lacinia congue felis in faucibus.
+            <span class="more glyphicon glyphicon-chevron-down"></span> 
+          </span>
+        </a>
+
+
+
+
+      </div>
+
+      <!-- DUMMY DATA END -->
+    </div>
+    <!-- RIGHT BOX START -->
+
+
+
+
   </div>
-</div>
 </div>
 
 <style>
+
+#zoom[target='false'] {
+ width: 100%;
+ -webkit-transition: width 1s;
+ -moz-transition: width 1s;
+ -o-transition: width 1s;
+ transition: width 1s;
+}
+
+/* Compliance = IE8+, Firefox 2+, Safari, Chrome, Opera 10+ */
+#zoom[target='true'] {
+ width: 75%;
+ -webkit-transition: width 1s;
+ -moz-transition: width 1s;
+ -o-transition: width 1s;
+ transition: width 1s;
+ 1
+}
+#zoom[target='true'] + .right-box {
+ right: 0;
+ -webkit-transition: right 1s;
+ -moz-transition: right 1s;
+ -o-transition: right 1s;
+ transition:  right 1s;
+}
+
+
 .left-box{
   /*border:1px solid red;*/
   min-height: 700px;
@@ -414,7 +540,7 @@ body,html{
   border-bottom: 1px solid gray;
 }
 #tread-side-group{
-overflow: hidden;
+  overflow: hidden;
 }
 
 .container-fluid {
@@ -550,8 +676,8 @@ a{
 
 /*MEDIA*/
 .media-group{
-margin-top: 15px;
-margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .media {
  margin-top: 0; 
@@ -562,44 +688,26 @@ margin-bottom: 15px;
 .media-reply{
   padding-top: 10px;
 }
- #zoom {
-     width: 100%;
-    -webkit-transition: width 1s;
-    -moz-transition: width 1s;
-    -o-transition: width 1s;
-    transition: width 1s;
-}
 
-/* Compliance = IE8+, Firefox 2+, Safari, Chrome, Opera 10+ */
-#zoom:target {
-   width: 75%;
-
-}
-#zoom:target + .right-box {
-   right: 0;
-    -webkit-transition: right 1s;
-    -moz-transition: right 1s;
-    -o-transition: right 1s;
-    transition:  right 1s;
-}
 .right-box{
+  overflow: auto;
   /*border:1px solid red;*/
 
 }
 
 .outer {
-   overflow: hidden;
-   position: relative;
+ overflow: hidden;
+ position: relative;
 }
 .inner {
-    position: fixed;
-    min-height: 700px;
-    right: -315px;
-    top: 0;
-    -webkit-transition: right 1s;
-    -moz-transition: right 1s;
-    -o-transition: right 1s;
-    transition:  right 1s;
+  position: fixed;
+  min-height: 700px;
+  right: -315px;
+  top: 0;
+  -webkit-transition: right 1s;
+  -moz-transition: right 1s;
+  -o-transition: right 1s;
+  transition:  right 1s;
 }
 #right-arr{
   display:none;
@@ -614,18 +722,18 @@ margin-bottom: 15px;
 
 /*DISABLING A TAG DEFAULT*/
 #right-arr:hover{
-text-decoration: none;
+  text-decoration: none;
 }
 #right-arr:active{
-text-decoration: none;
+  text-decoration: none;
 }
 #right-arr:focus{
-text-decoration: none;
+  text-decoration: none;
 }
 
 /*SIDE MESSAGES*/
 .right-data{
-   height: 105px;
+ height: 105px;
 
 }
 .message-header{
@@ -637,14 +745,15 @@ text-decoration: none;
   opacity: .75;
 }
 .message-header:hover{
-text-decoration: underline;
+  text-decoration: underline;
 }
 .message-body{
 
 }
 .more{
   position: absolute;
-  top: 77px;
+  top: 83px !important;
+  bottom: auto;
   right: 0px;
   cursor: pointer;
   /* top: 385px; */
@@ -652,6 +761,27 @@ text-decoration: underline;
   padding: 3px;
 }
 
+.icon-top{
+  top: 83px !important;
+  bottom: auto !important;
+}
+.icon-bottom{
+  top:auto !important;
+  bottom: 0 !important;
+}
+.reply-box{
+  padding-top: 10px;
+}
+textarea{
+  resize: vertical;
+}
+.reply-form{
+  margin-bottom: 5px;
+}
+.left-btn{
+  margin-right: 10px;
+
+}
 </style>
 
 

@@ -21,53 +21,84 @@ $('.popbutton').popover({
 	},
 	events: function() {
 
-	
+		//WANT TO REPLY
 		$('.reply-text').click(function(){
 			
 			var state = parseInt($('#right-arr').attr('state'));
 
 			if (state == 0) {//CLOSE
-				$('#right-arr').attr('state','1');
-				$('#right-arr').css('display','inline');
+				right_box_expende();
 			}
+		    // CREATE REPLY BOX
+		    var reply_html = '<div class="media reply-media">'+
+								'<div class="media-left">'+
+								'<a href="#">'+
+								'<img class="media-object" data-src="holder.js/64x64" alt="64x64" src="assets/images/blank_male.png" data-holder-rendered="true" style="width: 64px; height: 64px;">'+
+								'</a>'+
+								'</div>'+
+								'<div class="media-body">'+
+								' <div class="form-group reply-form">'+
+								'<label for="comment">Reply:</label>'+
+								'<textarea class="form-control" rows="5" id="comment" placeholder="type somthing..."></textarea>'+
+								'</div>'+
+								'<div class="reply-btns pull-right">'+
+								'<a class="btn btn-default left-btn">Cancel</a>'+
+								'<a class="btn btn-primary">Reply</a>'+
+								'</div>'+
+								'</div>'+
+							'</div>';
+
+			$(this).parents('.dialogbox-container:first').find('.reply-box:first').append(reply_html); 
 
 		});
 
+		//HIDE RIGHT BOX
 		$('#right-arr').click(function(){
 			
 			var state = parseInt($('#right-arr').attr('state'));
 
 			if (state == 1) {//OPEN
-				$('#right-arr').attr('state','0');
-				$('#right-arr').css('display','none');
+				right_box_compress();
 			}
 
+
+
+		});
+		//REPLY CANCEL BTN WAS CLICKED
+		$(document).on('click','.left-btn',function(){
+				right_box_compress();
+				$(this).parents('.dialogbox-container:first').find('.reply-media:first').remove();
 		});
 
+
+		//MORE CLICKED
 		$('.more').click(function(){
-			var new_var = 100;
+			
 			var current_height = parseInt($(this).parents('.right-data:first').css('height'));
-			var new_height = current_height + new_var;
-			$(this).parents('.right-data:first').css('height',new_height);
-			$(this).parents('.right-data:first').css({
-		        opacity          : 1,
-		        WebkitTransition : 'height 1s',
-		        MozTransition    : 'height 1s',
-		        MsTransition     : 'height 1s',
-		        OTransition      : 'height 1s',
-		        transition       : 'height 1s'
-		    });
-			var current_top = parseInt($('.more').css('top'));
-			$('.more').css({
-		        opacity          : 1,
-		        WebkitTransition : 'top 1s',
-		        MozTransition    : 'top 1s',
-		        MsTransition     : 'top 1s',
-		        OTransition      : 'top 1s',
-		        transition       : 'top 1s'
-		    });
-			var new_top = current_top + new_var;
-			$('.more').css('top',new_top);
+			var expended = parseInt($(this).parents('.right-data:first').attr('expended'));
+			// EXPENDED 0 = CLOSE, 1 = OPEN
+			if (expended == 0) {
+				//CHANGE THE EXPENDED TO OPEN
+				$(this).parents('.right-data:first').attr('expended','1');
+				$(this).parents('.right-data:first').css('height','100%');
+				// CHANGE THE ARROW 
+				$(this).removeClass('glyphicon-chevron-down')
+						.addClass('glyphicon-chevron-up');
+
+				//BRING THE GLYPHICON TO BOTTOM
+				$(this).removeClass('icon-top').addClass('icon-bottom');
+			} else {
+				// CHANGE THE EXPENDED TO CLOSE
+				$(this).parents('.right-data:first').attr('expended','0');
+				$(this).parents('.right-data:first').css('height','105px');
+				// CHANGE THE ARROW
+				$(this).removeClass('glyphicon-chevron-up')
+						.addClass('glyphicon-chevron-down');
+
+				//BRING THE GLYPHICON TO top	
+				$(this).removeClass('icon-bottom').addClass('icon-top');
+			}
+
 		});
 		
 
@@ -118,4 +149,13 @@ $('.popbutton').popover({
 request = {
 
 };
-
+function right_box_expende(){
+	$('#right-arr').attr('state','1');
+	$('#right-arr').css('display','inline');
+	$('#zoom').attr('target','true');
+} 
+function right_box_compress(){
+	$('#right-arr').attr('state','0');
+	$('#right-arr').css('display','none');
+	$('#zoom').attr('target','false');
+}
