@@ -1,5 +1,5 @@
 # Eyelevate
-POS system, booking managment (Multi purpose application for small business).
+POS system, booking management (Multipurpose application for small business).
 
 <h1>What Did I learned</h1>  
 <ul>
