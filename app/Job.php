@@ -137,7 +137,7 @@ class Job extends Model
 					break;
 					case 'username':
 						$message="Username has already been taken.";
-						$count = count(User::where('username',$value)->first());
+						$count = 0;
 						if ($count == 0) {
 							if (strlen($value) >= '4') {
 								$data_output[$type]['message']="";
@@ -153,7 +153,7 @@ class Job extends Model
 						}
 					break;
 					case 'email':
-						$count = count(User::where('email',$value)->first());
+						$count = 0;
 						if ($count == 0) {
 							if (filter_var($input_all[$type], FILTER_VALIDATE_EMAIL)) {
 								$data_output[$type]['status'] = 200;

@@ -17,6 +17,9 @@ class CreateProjectsTable extends Migration
             $table->tinyInteger('status')->nullable();
             $table->softDeletes();
             $table->timestamps();
+            $table->string('title');
+            $table->text('description');
+            $table->tinyInteger('type');
         });
     }
 

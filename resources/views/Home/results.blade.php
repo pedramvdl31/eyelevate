@@ -52,7 +52,7 @@
   <!-- LEFT BOX END -->
   <!-- RIGHT BOX START -->
   <div class="col-md-3 max-height" id="right-box"> 
-    <a class="btn btn-primary btn-block ask_q_btn">Ask a Question</a>
+    <a class="btn btn-primary btn-block ask_q_btn">Ask a Questionxxxxx</a>
     <div class="" id="right-box-inner">
 
       <div class="list-group list-group-container">

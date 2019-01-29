@@ -13,8 +13,6 @@ class AddColumnsToFlagsTable extends Migration
     public function up()
     {
         Schema::table('flags', function(Blueprint $table) {
-            $table->tinyInteger('reason')->nullable();
-            $table->text('details')->nullable();
         });
     }
 

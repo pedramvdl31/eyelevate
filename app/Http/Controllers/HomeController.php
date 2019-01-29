@@ -86,6 +86,9 @@ class HomeController extends Controller
         $categories_for_select = Category::prepareForSelect(Category::where('status',1)->get());
         $categories_for_side = Category::prepareForSide(Category::where('status',1)->get());
 
+        Job::dump('wer ar eherere');
+
+
         return view('Home.results')
             ->with('layout',$this->layout)
             ->with('threads',$prepared_thread)
