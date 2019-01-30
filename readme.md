@@ -1,7 +1,7 @@
 # Eyelevate
 POS system, booking management (Multipurpose application for small business).
 
-<h1>What Did I learned</h1>  
+<h1>What Did I learn?</h1>  
 <ul>
     <li>Laravel 5</li>
     <li>MVC Programming</li>
